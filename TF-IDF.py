@@ -1,4 +1,4 @@
-#2021.4.23
+#2021.4.23  代码参考自莫烦 https://github.com/MorvanZhou/NLP-Tutorials
 #搜索引擎(TF-IDF检索) 通过这个例子让我们熟悉nlp中重要的部分就是把语言向量化
 #我们搜索文档时会搜索关键信息，通过关键信息的检索返回结果，TF-IDF就是做信息提取的工作
 #TF：Term Frequency  词频
@@ -141,7 +141,6 @@ print(scores)
 d_ids = scores.argsort()[-3:][::-1] #从后向前取3个TF-IDF值最大的索引
 
 print("\ntop 3 docs for '{}':\n{}".format(q,[docs[i] for i in d_ids]))
-
 
 
 
