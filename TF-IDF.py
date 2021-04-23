@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-#2021.4.23  代码参考自莫烦 https://github.com/MorvanZhou/NLP-Tutorials
-=======
+
 #2021.4.23   代码参考自https://github.com/MorvanZhou/NLP-Tutorials
->>>>>>> 59c5fd737e7f8c46d4a168c95c9b37f29b1747a6
 #搜索引擎(TF-IDF检索) 通过这个例子让我们熟悉nlp中重要的部分就是把语言向量化
 #我们搜索文档时会搜索关键信息，通过关键信息的检索返回结果，TF-IDF就是做信息提取的工作
 #TF：Term Frequency  词频
